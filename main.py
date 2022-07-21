@@ -7,7 +7,7 @@ from skimage.io import imread
 # download the image
 img_url = 'https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg'
 
-im = imread(img_url))
+im = imread(img_url)
 
 st.image(im, caption = 'image from wikimedia commons',
          use_column_width = True)
